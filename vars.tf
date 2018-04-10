@@ -1,19 +1,19 @@
 variable aws_region {
-  default     = ""
   description = "AWS region to create infrastructure."
+  type        = "string"
 }
 
 variable vpc_cidr_block_a {
-  default     = ""
   description = "First CIDR block for the VPC"
+  type        = "string"
 }
 
 variable vpc_cidr_block_b {
-  default     = ""
   description = "Second CIDR block for the VPC"
+  type        = "string"
 }
 
 variable vpc_cidr_block_c {
-  default     = ""
-  description = "Third CIDR block for the VPC"  
+  description = "Third CIDR block for the VPC" 
+  type        = "string"
 }
